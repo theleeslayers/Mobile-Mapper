@@ -10,12 +10,12 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     let northwesternAnnotation = MKPointAnnotation()
     let locationManager = CLLocationManager()
-    let address = "Mount Rushmore"
+    let address = "Pizza Hut"
     let geocoder = CLGeocoder()
     
     override func viewDidLoad() {
