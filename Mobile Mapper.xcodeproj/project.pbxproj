@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89B63DF520F6884600E221C1 /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B63DF420F6884600E221C1 /* LocationDetails.swift */; };
 		89E3D98320F6546000F1E94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3D98220F6546000F1E94D /* AppDelegate.swift */; };
 		89E3D98520F6546000F1E94D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3D98420F6546000F1E94D /* ViewController.swift */; };
 		89E3D98820F6546000F1E94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E3D98620F6546000F1E94D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89B63DF420F6884600E221C1 /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
 		89E3D97F20F6546000F1E94D /* Mobile Mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E3D98220F6546000F1E94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89E3D98420F6546000F1E94D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				89E3D98220F6546000F1E94D /* AppDelegate.swift */,
 				89E3D98420F6546000F1E94D /* ViewController.swift */,
+				89B63DF420F6884600E221C1 /* LocationDetails.swift */,
 				89E3D98620F6546000F1E94D /* Main.storyboard */,
 				89E3D98920F6546100F1E94D /* Assets.xcassets */,
 				89E3D98B20F6546100F1E94D /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B63DF520F6884600E221C1 /* LocationDetails.swift in Sources */,
 				89E3D98520F6546000F1E94D /* ViewController.swift in Sources */,
 				89E3D98320F6546000F1E94D /* AppDelegate.swift in Sources */,
 			);
